@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "kitchen-cayman.gl.joinmc.link",
+          "assigned_srv": "kitchen-cayman.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "63691d8f-490a-4520-89e8-275a60a69177",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 49161,
+          "port_start": 49160,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-29T00:57:55.780843Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "2622c075-c704-47bc-8600-de07b0973ad3",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "d1672586-46a2-4a99-9a83-c135caf824f6",
+          "agent_name": "from-key-6a7d",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
